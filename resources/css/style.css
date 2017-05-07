@@ -9,7 +9,8 @@ header {
     align-items: center;
     text-align: right;
     border-bottom: 1px solid black;
-    margin: 0 -8px;
+    margin: -8px 0px 0px -10px;
+    padding-top: 5px;
     position: fixed;
     z-index: 20;
     
@@ -20,18 +21,16 @@ header {
 }
     
 .large {
-        width: 630;
-        flex: 3
+        width: 630px;
+        margin-top: -40px;
     }
     
 .medium {
         width: 300px;
-        flex: 2;
     }
 
 .small {
         width: 240px;
-        flex: 1;
 }
 
 .logo {
@@ -67,17 +66,24 @@ span {
 
 main {
     display: flex;
-    padding-top: 105px;
+    padding-top: 101px;
 }
 
 .phish {
+    display: flex;
     height: 300px;
     background-image: url("../images/main.png");
+    align-items: center;
+    margin-left: -8px;
 }
 
 .earth {
+    display: flex;
     height: 300px;
     background-image: url("../images/fall.png");
+    align-items: center;
+    text-align: center;
+    margin-top: -3px;
 }
 
 div {
@@ -85,13 +91,21 @@ div {
 }
 
 .camera {
+    display: flex;
     height: 300px;
     background-image: url("../images/cameraman.png");
+    align-items: center;
+    text-align: center;
+    margin-top: -3px;
 }
 
 .cats {
+    display: flex;
     height: 300px;
     background-image: url("../images/cat.png");
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 
@@ -101,8 +115,51 @@ div {
 .area1 {
     display: flex;
     flex-direction: column;
+    margin-right: 15px;
 }
 
 .grid {
     display: flex;
+    padding-top: 30px;
+}
+
+article {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.imgtitle, .main-imgtitle {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.main-imgtitle {
+    font-size: 40px;
+    padding-left: 10px;
+    
+}
+
+.area2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    
+}
+
+.storygrid {
+    margin-top: -2px;
+    height: 170px;
+}
+
+
+
+
+
+.imgarticle {
+    margin-top: -20px;
 }
