@@ -1,0 +1,68 @@
+
+header {
+    display: flex;
+    width: 100%;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    align-items: center;
+    text-align: right;
+    border-bottom: 1px solid black;
+    margin: 0 -8px;
+    position: fixed;
+    z-index: 20;
+    
+}
+
+.large, .medium, .small {
+    margin-right: 32px;
+}
+    
+    .large {
+        width: 630;
+    }
+    
+    .medium {
+        width: 300px;
+    }
+
+    .small {
+        width: 240px;
+}
+
+.logo {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    color: mediumaquamarine;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+
+nav {
+    flex-grow: 1;
+    padding-right: 50px;
+    
+}
+
+
+
+a {
+    color: black;
+    margin-left: 10px
+}
+
+span {
+
+}
+
+.mytimes {
+    padding: 10px;
+    color: mediumaquamarine;
+}
+
+main {
+    display: flex;
+    padding-top: 105px;
+}
