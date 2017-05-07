@@ -19,16 +19,19 @@ header {
     margin-right: 32px;
 }
     
-    .large {
+.large {
         width: 630;
+        flex: 3
     }
     
-    .medium {
+.medium {
         width: 300px;
+        flex: 2;
     }
 
-    .small {
+.small {
         width: 240px;
+        flex: 1;
 }
 
 .logo {
@@ -65,4 +68,28 @@ span {
 main {
     display: flex;
     padding-top: 105px;
+}
+
+.phish {
+    height: 300px;
+    background-image: url("../images/main.png");
+}
+
+.earth {
+    height: 300px;
+    background-image: url("../images/fall.png");
+}
+
+div {
+    
+}
+
+.camera {
+    height: 300px;
+    background-image: url("../images/cameraman.png");
+}
+
+.cats {
+    height: 300px;
+    background-image: url("../images/cat.png");
 }
