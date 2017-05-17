@@ -50,10 +50,7 @@ footer {
     align-items: center;
 }
 
-.area1, .area2 {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .area1 {
     margin-right: 15px;
