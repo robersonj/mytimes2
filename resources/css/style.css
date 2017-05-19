@@ -27,7 +27,10 @@ nav {
 main {
     display: flex;
     padding-top: 101px;
-    margin-bottom: 45px;
+    padding-bottom: 45px;
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 article {
@@ -81,6 +84,8 @@ footer {
 
 .camera {
     background-image: url("../images/cameraman.png");
+    flex: 1;
+    margin-left: 15px;
 }
 
 .cats {
@@ -90,6 +95,8 @@ footer {
 
 .earth {
     background-image: url("../images/fall.png");
+    flex: 1;
+    margin-right: 15px;
 }
 
 .footernav {
@@ -103,6 +110,12 @@ footer {
 .grid {
     display: flex;
     padding-top: 30px;
+    align-items: stretch;
+}
+
+.image-container {
+    display: flex;
+    margin-top: 30px;
 }
 
 .imgarticle {
@@ -176,8 +189,7 @@ footer {
 }
 
 .storygrid {
-    margin-top: -2px;
-    height: 150px;
+    margin-top: 0;
 }
 
 .vertbar {
